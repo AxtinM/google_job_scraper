@@ -20,3 +20,8 @@ Just change the keywords.txt to what you wish to scrape.
 
 > keyword(s) must be put inside a text file.
 
+
+## To Run it
+
+just install the dependencies and do:
+python3 jobber.py
