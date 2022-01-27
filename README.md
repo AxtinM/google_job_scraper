@@ -1,9 +1,12 @@
 # Google_Job_Scraper
 
-this is a simple and a customizable **Bot** that can scrape for job `information` depending on what keyword(s) you give it.
+this is a simple and a customizable **Bot** that can scrape for job `information` depending on what keyword(s) you give it and outputs it in an xlsx file `default : output.xlsx`
 
  ## How it works
  ![script running](./example.gif)
+
+
+Just change the keywords.txt to what you wish to scrape.
 
 ***`*information`*** :
 
