@@ -2,14 +2,13 @@ import logging
 from pathlib import Path
 from driver_handler import create_driver_handler, set_windows_title
 from google_handler import Handler
-
+import time
 
 class FileReader:
     @staticmethod
     def accept_filename():
-        # filename = input("\aEnter a valid filename: ")
-        # put path to your keywords.txt
-        filename = '/home/micky/Downloads/jobber/src/keywords.txt'
+        import sys
+        filename = sys.argv[1]
         return filename
 
     @property
@@ -29,12 +28,11 @@ class FileReader:
 
 
 if __name__ == "__main__":
-    
+
     set_windows_title()
     logging.basicConfig(format="## %(message)s", level=logging.INFO)
     driver = create_driver_handler()
-    print(driver)
-    # these are our helper classes
+
     google_handler = Handler(driver)
 
 

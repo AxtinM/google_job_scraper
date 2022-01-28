@@ -25,4 +25,4 @@ Just change the keywords.txt to what you wish to scrape.
 
 just install the dependencies and run the jobber:
  - pip3 install -r requirements.txt
- - python3 jobber.py
+ - python3 jobber.py {path to keywords.txt}
